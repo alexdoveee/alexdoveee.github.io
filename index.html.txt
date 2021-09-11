@@ -214,10 +214,10 @@ section.contact {
 
         <h1>Hi, I'm Alex.</h1>
 
-        An adaptable and creative-minded graduate with experience in demanding agency and in-house settings; 
-        creating various print and digital materials including brochures, POS, packaging, websites and social media assets. 
-        Well-travelled after spending a year and a half living abroad, with extensive digital knowledge due 
-        to a previously successful blogging endeavour, and lifelong passion to develop new design skills.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+	incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+	ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+	in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
         <br/><br/><br/>
 
