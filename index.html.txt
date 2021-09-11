@@ -1,0 +1,347 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>A Dove Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="A Dove Design" content="Graphic designer based in Leicestershire, England" />
+<meta name="Description" content="Graphic designer based in Leicestershire, England" />
+<meta name="Keywords" content="
+    A Dove Design, graphic design, graphic designer, freelance designer, freelance graphic designer,
+    freelance designer market harborough, freelance designer leicester, freelance designer northampton,
+    freelance designer kettering, graphic designer leicester, graphic designer northampton, graphic designer kettering, 
+    graphic designer market harborough, freelancer market harborough, freelancer kettering, 
+    freelancer leicester, freelancer northampton, freelancer midlands, graphic designer midlands, 
+    brochure design leicester, brochure design market harborough, brochure design kettering, brochure design northampton 
+    logo design market harborough, logo design leicester, logo design kettering, logo design northampton
+    social media design market harborough, social media design leicester, social media design kettering, social media design northampton
+    packaging design market harborough, packaging design leicester, packaging design kettering, packaging design northampton
+    corporate identity market harborough, corporate identity leicester, corporate identity kettering, corportate identity northampton" />
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/Assets/ADoveDesign_Favicon.svg" sizes="any" type="image/svg+xml">
+	
+<style type="text/css">
+
+html {scroll-behavior:smooth;}
+
+body {
+  font-family:'Montserrat',sans-serif;
+  font-weight:lighter;
+  margin:0;
+  padding:0;
+  text-align:center;
+  --minFontSize:9px;
+  --maxFontSize:16px;
+  --scaler:1vw;
+  font-size:clamp( var(--minFontSize),var(--scaler),var(--maxFontSize) );
+  letter-spacing:0;
+}
+
+h1 {
+  --minFontSize:40px;
+  --maxFontSize:80px;
+  --scaler:2vw;
+  font-size:clamp( var(--minFontSize),var(--scaler),var(--maxFontSize) );
+  letter-spacing:5px;
+}
+
+h2 {
+    font-weight:100;
+    --minFontSize:18px;
+    --maxFontSize:30px;
+    --scaler:2vw;
+    font-size:clamp( var(--minFontSize),var(--scaler),var(--maxFontSize) );
+    letter-spacing:10px;
+    text-transform:uppercase;
+}
+
+a {
+  color:#fff;
+  text-decoration:none;
+}
+
+.header a:hover {
+  color:#000;
+  text-decoration:none;
+}
+
+.header {
+  position:fixed;
+  padding-right:2%;
+  padding-left:2%;
+  padding-top:1.5%;
+  padding-bottom:1.5%;
+  background-color:hsla(0, 0%, 0%, 0.2);
+  top:0;
+  left:0;
+  right:0;
+  margin:0 auto;
+}
+
+.centered {
+  position:relative;
+  width:80%;
+  padding-top:30px;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%, -50%);
+  transform:translate(-50%, -50%);
+}
+
+.flex {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.icons {
+  margin:1.5%;
+  padding:1.5%;
+  text-align:center;
+  flex:25%;
+}
+
+.column {
+  flex: 20%;
+  max-width: 20%;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 38%;
+    max-width: 38%;
+  }
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+#button {
+  background-color:hsla(0, 0%, 0%, 0.3);
+  border-radius:100%;
+  color:#fff;
+  padding:10px;
+  margin-left:5px;
+  text-align:center;
+  display:inline-block;
+  transition-duration:0.4s;
+  width:20px;
+}
+
+#button:hover {
+  background-color:#000;
+}
+
+section.welcome {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  height:100%;
+  color:#fff;
+  background-image:url("/Assets/Header_Filter.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+section.about {
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+  background-color:#fff;
+}
+
+section.services {
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+  background-color:#eee;
+}
+
+section.work {
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+  background-color:#fff;
+}
+
+section.contact {
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+  background-color:#000;
+  color:#fff;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="header">
+<div style="float:right; text-align:right;">
+<a href="#welcome">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#services">Services</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#work">Work</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#contact">Contact</a> 
+</div>
+</div>
+
+<section class="welcome" id="welcome">
+
+    <div class="centered">
+
+        <img src="/Assets/ADoveDesign.svg" height="25%"><p/>
+        <h2>A Dove<br/>Design</h2>
+
+        <a href="#about"><div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div></div></a>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+        
+    <div class="centered">
+        <img src="/Assets/About_Image.jpg" height="25%" style="border-radius:100%;"><p/>
+
+        <h1>Hi, I'm Alex.</h1>
+
+        An adaptable and creative-minded graduate with experience in demanding agency and in-house settings; 
+        creating various print and digital materials including brochures, POS, packaging, websites and social media assets. 
+        Well-travelled after spending a year and a half living abroad, with extensive digital knowledge due 
+        to a previously successful blogging endeavour, and lifelong passion to develop new design skills.
+
+        <br/><br/><br/>
+
+        <a href="#services"><div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div></a>
+
+    </div>
+        
+</section>
+
+<section class="services" id="services">   
+        
+    <div class="centered"> 
+
+        <div class="flex">
+
+            <div class="icons">
+            <img src="Assets/icons_DigitalDesign.svg" style="min-width:60px; max-width:25%;"><p/>
+            <b>Digital design</b><br/>
+            Including blog/website design, social media assets (GIF and JPG) and interactive PDFs.
+            </div>
+  
+            <div class="icons">
+            <img src="Assets/icons_PrintDesign.svg" style="min-width:60px; max-width:25%;"><p/>
+            <b>Print design</b><br/>
+            Experience in brochure, POS, and packaging design, as well as large format event/exhibition graphics.
+            </div>
+
+            <div class="icons">
+            <img src="Assets/icons_Photography.svg" style="min-width:60px; max-width:25%;"><p/>
+            <b>Photography</b><br/>
+            A keen eye for photography and compulsion to capture the moment with perfect framing.
+            </div>
+
+            <div class="icons">
+            <img src="Assets/icons_BrandingLogos.svg" style="min-width:60px; max-width:25%;"><p/>
+            <b>Branding + logo design</b><br/>
+            Experience with following strict brand guidelines and an artistic eye for typography, colours and logo design.
+            </div>
+
+            <div class="icons">
+            <img src="Assets/icons_HTMLCSS.svg" style="min-width:60px; max-width:25%;"><p/>
+            <b>HTML + CSS</b><br/>
+            My lifelong passion for design began with learning basic HTML at the age of 11 and making websites for fun since then.
+            </div>
+
+            <div class="icons">
+            <img src="Assets/icons_Copywriting.svg" style="min-width:60px; max-width:25%;"><p/>
+            <b>Copywriting</b><br/>
+            A first class degree in Sociology plus experience writing for various clients in agency and in-house PR settings.
+            </div>
+
+        </div>
+
+        <br/><br/><a href="#work"><div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div></a>
+
+    </div>
+
+</section>
+
+<section class="work" id="work">
+        
+    <div class="centered">
+
+        <h2>Recent work</h2>
+
+        <div class="flex">
+
+            <div class="column">
+            <img src="/Thumbnails/aspexan.jpg"/>
+            <img src="/Thumbnails/xanadu.jpg"/>
+            </div>
+
+            <div class="column">
+            <img src="/Thumbnails/vaike.jpg"/>
+            <img src="/Thumbnails/engagement.jpg"/>
+            </div>
+
+            <div class="column">
+            <img src="/Thumbnails/xanadu.jpg"/>
+            <img src="/Thumbnails/aspexan.jpg"/>
+            </div>
+
+            <div class="column">
+            <img src="/Thumbnails/engagement.jpg"/>
+            <img src="/Thumbnails/vaike.jpg"/>
+            </div>
+
+        </div>
+
+        <br/><br/><a href="#contact"><div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div></a>
+
+    </div>
+       
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="centered">
+
+        <h2>Get in touch</h2>
+
+        <form action="mail.php" method="post">
+        <p>Name</p> <input type="text" name="name">
+        <p>Email</p> <input type="text" name="email">
+        <p>Message</p><textarea name="message" rows="6" cols="25"></textarea>
+        <br/><br/>
+        <input type="submit" value="Send">
+        </form>
+
+        <br/><br/>
+
+        <a href="http://www.facebook.com/alexandradove"><img src="/Assets/icons_social_FB.svg" width="16px" style="padding-right:10px;"/></a>
+        <a href="http://www.instagram.com/alexdoveee"><img src="/Assets/icons_social_IG.svg" width="16px" style="padding-right:10px;"/></a>
+        <a href="http://www.linkedin.com/in/alexandradove"><img src="/Assets/icons_social_IN.svg" width="16px" style="padding-right:10px;"/></a>
+        <a href="http://www.pinterest.com/alexdoveee"><img src="/Assets/icons_social_PI.svg" width="16px" style="padding-right:10px;"/></a>
+        <a href="http://www.twitter.com/alexdoveee"><img src="/Assets/icons_social_TW.svg" width="16px"></a>
+
+        <br/><br/><br/>
+
+        <a href="#welcome"><div id="button"><img src="/Assets/icons_Arrow.svg"></div></a>
+
+    </div>
+        
+</section>
+
+</body>
+</html>
