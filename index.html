@@ -23,200 +23,9 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
     type="text/css">
 
-  <link rel="icon" href="/Assets/ADoveDesign_Favicon.svg" sizes="any" type="image/svg+xml">
+  <link rel="icon" href="Assets/ADoveDesign_Favicon.svg" sizes="any" type="image/svg+xml">
 
-  <style type="text/css">
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: lighter;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      --minFontSize: 10px;
-      --maxFontSize: 16px;
-      --scaler: 1vw;
-      font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-      letter-spacing: 0;
-    }
-
-    h1 {
-      --minFontSize: 40px;
-      --maxFontSize: 80px;
-      --scaler: 2vw;
-      font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-      letter-spacing: 5px;
-    }
-
-    h2 {
-      font-weight: 100;
-      --minFontSize: 18px;
-      --maxFontSize: 30px;
-      --scaler: 2vw;
-      font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-      letter-spacing: 10px;
-      text-transform: uppercase;
-    }
-
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .header a:hover {
-      color: #000;
-      text-decoration: none;
-    }
-
-    .header {
-      position: fixed;
-      padding-right: 2%;
-      padding-left: 2%;
-      padding-top: 1.5%;
-      padding-bottom: 1.5%;
-      background-color: hsla(0, 0%, 0%, 0.2);
-      top: 0;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-    }
-
-    .centered {
-      position: relative;
-      width: 80%;
-      padding-top: 30px;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-
-    .flex {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .icons {
-      margin: 1.5%;
-      padding: 1.5%;
-      text-align: center;
-      flex: 25%;
-    }
-
-    .column {
-      flex: 20%;
-      max-width: 20%;
-    }
-
-    @media (max-width: 600px) {
-      .column {
-        flex: 38%;
-        max-width: 38%;
-      }
-    }
-
-    .column img {
-      vertical-align: middle;
-      width: 100%;
-    }
-
-    #button {
-      background-color: hsla(0, 0%, 0%, 0.3);
-      border-radius: 100%;
-      color: #fff;
-      padding: 10px;
-      margin-left: 5px;
-      text-align: center;
-      display: inline-block;
-      transition-duration: 0.4s;
-      width: 20px;
-    }
-
-    #button:hover {
-      background-color: #000;
-    }
-
-    section.welcome {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0px;
-      height: 100%;
-      color: #fff;
-      background-image: url("/Assets/Header_Filter.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    section.about {
-      margin-left: auto;
-      margin-right: auto;
-      height: 100%;
-      background-color: #fff;
-    }
-
-    section.services {
-      margin-left: auto;
-      margin-right: auto;
-      height: 100%;
-      background-color: #eee;
-    }
-
-    section.work {
-      margin-left: auto;
-      margin-right: auto;
-      height: 100%;
-      background-color: #fff;
-    }
-
-    section.contact {
-      margin-left: auto;
-      margin-right: auto;
-      height: 100%;
-      background-color: #000;
-      color: #fff;
-    }
-
-    form {
-      width: 30%;
-      text-align: center;
-      margin: auto;
-    }
-
-    input,
-    textarea {
-      border: 1px white solid;
-      padding: 1em;
-      width: 100%;
-      resize: none;
-      background-color: #000;
-      color: #fff;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: lighter;
-    }
-
-    textarea {
-      height: 50px;
-    }
-
-    button {
-      color: #000;
-      background: #fff;
-      border: none;
-      width: 50%;
-      padding: 1em;
-      cursor: pointer;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: lighter;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -236,12 +45,12 @@
 
     <div class="centered">
 
-      <img src="/Assets/ADoveDesign.svg" height="25%">
+      <img src="Assets/ADoveDesign.svg" height="25%">
       <p />
       <h2>A Dove<br />Design</h2>
 
       <a href="#about">
-        <div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
+        <div id="button"><img src="Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
     </div></a>
 
     </div>
@@ -251,7 +60,7 @@
   <section class="about" id="about">
 
     <div class="centered">
-      <img src="/Assets/About_Image.jpg" height="25%" style="border-radius:100%;">
+      <img src="Assets/About_Image.jpg" height="25%" style="border-radius:100%;">
       <p />
 
       <h1>Hi, I'm Alex.</h1>
@@ -264,7 +73,7 @@
       <br /><br /><br />
 
       <a href="#services">
-        <div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
+        <div id="button"><img src="Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
       </a>
 
     </div>
@@ -324,48 +133,49 @@
       </div>
 
       <br /><br /><a href="#work">
-        <div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
+        <div id="button"><img src="Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
       </a>
 
     </div>
 
   </section>
 
-  <section class="work" id="work">
+  <section class="work" id="work"> 
 
     <div class="centered">
 
       <h2>Recent work</h2>
 
+      </div>
+
       <div class="flex">
 
         <div class="column">
-          <img src="/Thumbnails/aspexan.jpg" />
-          <img src="/Thumbnails/xanadu.jpg" />
+          <img src="Thumbnails/aspexan.jpg" />
+          <img src="Thumbnails/xanadu.jpg" />
         </div>
 
         <div class="column">
-          <img src="/Thumbnails/vaike.jpg" />
-          <img src="/Thumbnails/engagement.jpg" />
+          <img src="Thumbnails/vaike.jpg" />
+          <img src="Thumbnails/engagement.jpg" />
         </div>
 
         <div class="column">
-          <img src="/Thumbnails/xanadu.jpg" />
-          <img src="/Thumbnails/aspexan.jpg" />
+          <img src="Thumbnails/xanadu.jpg" />
+          <img src="Thumbnails/aspexan.jpg" />
         </div>
 
         <div class="column">
-          <img src="/Thumbnails/engagement.jpg" />
-          <img src="/Thumbnails/vaike.jpg" />
+          <img src="Thumbnails/engagement.jpg" />
+          <img src="Thumbnails/vaike.jpg" />
         </div>
 
       </div>
 
       <br /><br /><a href="#contact">
-        <div id="button"><img src="/Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
+        <div id="button"><img src="Assets/icons_Arrow.svg" style="transform:rotate(180deg);"></div>
       </a>
 
-    </div>
 
   </section>
 
@@ -391,20 +201,20 @@
 
       <br /><br />
 
-      <a href="http://www.facebook.com/alexandradove"><img src="/Assets/icons_social_FB.svg" width="16px"
+      <a href="http://www.facebook.com/alexandradove"><img src="Assets/icons_social_FB.svg" width="16px"
           style="padding-right:10px;" /></a>
-      <a href="http://www.instagram.com/alexdoveee"><img src="/Assets/icons_social_IG.svg" width="16px"
+      <a href="http://www.instagram.com/alexdoveee"><img src="Assets/icons_social_IG.svg" width="16px"
           style="padding-right:10px;" /></a>
-      <a href="http://www.linkedin.com/in/alexandradove"><img src="/Assets/icons_social_IN.svg" width="16px"
+      <a href="http://www.linkedin.com/in/alexandradove"><img src="Assets/icons_social_IN.svg" width="16px"
           style="padding-right:10px;" /></a>
-      <a href="http://www.pinterest.com/alexdoveee"><img src="/Assets/icons_social_PI.svg" width="16px"
+      <a href="http://www.pinterest.com/alexdoveee"><img src="Assets/icons_social_PI.svg" width="16px"
           style="padding-right:10px;" /></a>
-      <a href="http://www.twitter.com/alexdoveee"><img src="/Assets/icons_social_TW.svg" width="16px"></a>
+      <a href="http://www.twitter.com/alexdoveee"><img src="Assets/icons_social_TW.svg" width="16px"></a>
 
       <br /><br /><br />
 
       <a href="#welcome">
-        <div id="button"><img src="/Assets/icons_Arrow.svg"></div>
+        <div id="button"><img src="Assets/icons_Arrow.svg"></div>
       </a>
 
     </div>
