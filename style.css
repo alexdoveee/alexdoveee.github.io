@@ -9,7 +9,7 @@ body {
   padding: 0;
   text-align: center;
   --minFontSize: 10px;
-  --maxFontSize: 18px;
+  --maxFontSize: 14px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
@@ -17,9 +17,9 @@ body {
 
 h1 {
   font-weight: 500;
-  --minFontSize: 24px;
-  --maxFontSize: 40px;
-  --scaler: 2vw;
+  --minFontSize: 32px;
+  --maxFontSize: 66px;
+  --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.5em;
   text-transform: uppercase;
@@ -27,11 +27,12 @@ h1 {
 
 h2 {
   font-weight: 500;
-  --minFontSize: 20px;
-  --maxFontSize: 32px;
-  --scaler: 2vw;
+  line-height: 100%;
+  --minFontSize: 32px;
+  --maxFontSize: 66px;
+  --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
 
 a {
@@ -39,32 +40,87 @@ a {
   text-decoration: none;
 }
 
-.header a:hover {
-  color: #000;
-  text-decoration: none;
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background:rgba(0,0,0,0.3);
 }
 
-.header {
-  position: fixed;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
-  background-color: hsla(0, 0%, 0%, 0.2);
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px 2% 20px 2%;
 }
 
 .centered {
   position: relative;
   width: 80%;
-  padding-top: 30px;
+  padding-top: 50px;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+section.welcome {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  height: 100%;
+  color: #fff;
+  background-image: url("Assets/Header_Filter.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.about {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 10%;
+  padding-bottom: 6%;
+  background-color: #fff;
+}
+
+section.work {
+  padding-top: 50px;
+}
+
+section.contact {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+section.project {
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  padding-top:10%;
+  padding-bottom:6%;
+}
+
+#arrow {
+  width: 25px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-55%);
 }
 
 .flex {
@@ -84,15 +140,9 @@ a {
 }
 
 .column {
-  flex: 20%;
-  max-width: 20%;
-}
-
-@media (max-width: 600px) {
-  .column {
-    flex: 38%;
-    max-width: 38%;
-  }
+  flex: 25%;
+  max-width: 25%;
+  background-color:#000;
 }
 
 .column img {
@@ -100,61 +150,49 @@ a {
   width: 100%;
 }
 
-#button {
-  background-color: hsla(0, 0%, 0%, 0.3);
-  border-radius: 100%;
+.content {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  transition: .5s ease;
+  background-color:rgba(0,0,0,0.7);
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content:hover .overlay {
+  opacity: 1;
+}
+
+.caption {
+  position: absolute;
   color: #fff;
-  padding: 10px;
-  margin-left: 5px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  --minFontSize: 20px;
+  --maxFontSize: 32px;
+  --scaler: 1vw;
+  font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
-  display: inline-block;
-  transition-duration: 0.4s;
-  width: 20px;
-}
-
-#button:hover {
-  background-color: #000;
-}
-
-section.welcome {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  height: 100%;
-  color: #fff;
-  background-image: url("Assets/Header_Filter.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-section.about {
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  background-color: #fff;
-}
-
-section.services {
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  background-color: #eee;
-}
-
-section.work {
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  background-color: #fff;
-}
-
-section.contact {
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
 }
 
 form {
@@ -163,8 +201,7 @@ form {
   margin: auto;
 }
 
-input,
-textarea {
+input, textarea {
   border: 1px white solid;
   padding: 1em;
   width: 100%;
@@ -188,9 +225,28 @@ button {
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  --minFontSize: 10px;
-  --maxFontSize: 18px;
-  --scaler: 1vw;
-  font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
+}
+
+@media (max-width: 800px) {
+
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  section.about {
+    width: 80%;
+    padding-top: 20%;
+    padding-bottom: 16%;
+  }
+
+  section.project {
+    padding-top:20%;
+  }
+
+  form {
+    width: 60%;
+  }
+
 }
