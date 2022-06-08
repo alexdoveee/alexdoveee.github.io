@@ -9,7 +9,7 @@ body {
   padding: 0;
   text-align: center;
   --minFontSize: 14px;
-  --maxFontSize: 18px;
+  --maxFontSize: 17px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
@@ -22,8 +22,8 @@ body {
 
 h1 {
   font-weight: 500;
-  --minFontSize: 32px;
-  --maxFontSize: 66px;
+  --minFontSize: 40px;
+  --maxFontSize: 70px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.5em;
@@ -34,8 +34,8 @@ h1 {
 h2 {
   font-weight: 600;
   line-height: 100%;
-  --minFontSize: 32px;
-  --maxFontSize: 66px;
+  --minFontSize: 40px;
+  --maxFontSize: 70px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.1em;
