@@ -27,6 +27,7 @@ h1 {
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.5em;
+  line-height: 1.5em;
   text-transform: uppercase;
 }
 
