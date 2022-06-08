@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 500;
   --minFontSize: 32px;
   --maxFontSize: 66px;
   --scaler: 1vw;
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 100%;
   --minFontSize: 32px;
   --maxFontSize: 66px;
@@ -216,7 +216,7 @@ input, textarea {
   background-color: #000;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 textarea {
@@ -231,7 +231,7 @@ button {
   padding: 1em;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.05em;
 }
 
