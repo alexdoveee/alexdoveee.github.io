@@ -18,6 +18,7 @@ body {
 
 ::selection {
   background: #FF0078;
+  color: #fff;
 }
 
 h1 {
@@ -33,9 +34,9 @@ h1 {
 
 h2 {
   font-weight: 600;
-  line-height: 100%;
-  --minFontSize: 60px;
-  --maxFontSize: 80px;
+  line-height: 0.8em;
+  --minFontSize: 50px;
+  --maxFontSize: 70px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
@@ -67,7 +68,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 15px 20px 15px;
 }
 
 .centered {
