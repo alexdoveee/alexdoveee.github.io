@@ -188,6 +188,7 @@ section.project {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.2em;
+  line-height:1.5em;
   text-transform: uppercase;
   --minFontSize: 20px;
   --maxFontSize: 32px;
