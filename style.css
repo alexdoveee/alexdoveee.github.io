@@ -34,11 +34,11 @@ h1 {
 h2 {
   font-weight: 600;
   line-height: 100%;
-  --minFontSize: 40px;
-  --maxFontSize: 70px;
+  --minFontSize: 60px;
+  --maxFontSize: 80px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
 }
 
 a {
@@ -96,7 +96,7 @@ section.about {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 60px;
   background-color: #fff;
 }
