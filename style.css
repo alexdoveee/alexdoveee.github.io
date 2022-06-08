@@ -8,11 +8,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  --minFontSize: 10px;
-  --maxFontSize: 14px;
+  --minFontSize: 14px;
+  --maxFontSize: 18px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
+  line-height: 1.5em;
+}
+
+::selection {
+  background: #ffb7b7;
 }
 
 h1 {
