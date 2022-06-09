@@ -33,9 +33,9 @@ h1 {
 }
 
 h2 {
-  font-weight: 600;
-  line-height: 0.8em;
-  --minFontSize: 50px;
+  font-weight: 500;
+  line-height: 1em;
+  --minFontSize: 40px;
   --maxFontSize: 70px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
@@ -97,8 +97,8 @@ section.about {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-top: 90px;
+  padding-bottom: 40px;
   background-color: #fff;
 }
 
