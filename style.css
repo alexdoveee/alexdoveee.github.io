@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-nav {
+.navigation {
   position: fixed;
   width: 100%;
   z-index: 9999;
