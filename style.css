@@ -47,6 +47,14 @@ a {
   text-decoration: none;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background:rgba(0,0,0,0.3);
+  padding:10px;
+}
+
 .navvynav1 a {
   padding: 10px 0;
   margin: 0 20px;
@@ -72,17 +80,6 @@ a {
 
 .navvynav1 a:hover::before {
   max-width: 100%;
-}
-
-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 9999;
-  background:rgba(0,0,0,0.3);
-}
-
-nav.black ul {
-  background: #000;
 }
 
 .centered {
