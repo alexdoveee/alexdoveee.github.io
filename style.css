@@ -47,13 +47,13 @@ h2 {
   width: 100%;
   z-index: 9999;
   background:rgba(0,0,0,0.5);
-  height:51px;
+  height:50.5px;
 }
 
 .underline a {
   padding: 3px;
   margin: 20px;
-  color: #fff;
+  color: #000;
   position: relative;
   text-decoration:none;
 }
@@ -65,8 +65,8 @@ h2 {
   overflow: hidden;
   padding: 3px;
   max-width: 0;
-  border-bottom: 20px solid #000;
-  color: #000;
+  border-bottom: 1px solid #fff;
+  color: #fff;
   content: attr(data-hover);
   -webkit-transition: max-width 0.5s;
   -moz-transition: max-width 0.5s;
