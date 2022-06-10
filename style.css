@@ -47,12 +47,11 @@ h2 {
   width: 100%;
   z-index: 9999;
   background:rgba(0,0,0,0.5);
-  margin:10px;
   height:50.5px;
 }
 
 .underline a {
-  padding: 3px 0px;
+  padding: 15px 0px 3px 0px;
   margin: 20px;
   color: #555;
   position: relative;
@@ -64,7 +63,7 @@ h2 {
   top: 0;
   left: 0;
   overflow: hidden;
-  padding: 3px 0px;
+  padding: 15px 0px 3px 0px;
   max-width: 0;
   border-bottom: 1px solid #fff;
   color: #fff;
