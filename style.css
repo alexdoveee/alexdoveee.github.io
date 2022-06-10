@@ -46,14 +46,14 @@ h2 {
   position: fixed;
   width: 100%;
   z-index: 9999;
-  background:rgba(0,0,0,0.5);
+  background:rgba(0,0,0,0.7);
   height:50.5px;
 }
 
 .underline a {
   padding: 3px 0px;
-  margin-top: 20px;
-  color: #555;
+  margin: 20px;
+  color: #888;
   position: relative;
   text-decoration:none;
 }
