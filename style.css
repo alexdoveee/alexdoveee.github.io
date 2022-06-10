@@ -81,12 +81,6 @@ nav {
   background:rgba(0,0,0,0.3);
 }
 
-nav ul {
-  list-style: none;
-  overflow: hidden;
-  transition: 1s;
-}
-
 nav.black ul {
   background: #000;
 }
