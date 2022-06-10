@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 500;
   --minFontSize: 40px;
   --maxFontSize: 70px;
   --scaler: 1vw;
