@@ -267,6 +267,13 @@ button {
     padding-top:20%;
   }
 
+  .caption {
+    --minFontSize: 14px;
+    --maxFontSize: 20px;
+    --scaler: 1vw;
+    font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+  }
+
   form {
     width: 60%;
   }
