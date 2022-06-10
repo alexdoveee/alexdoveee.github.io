@@ -47,7 +47,7 @@ h2 {
   width: 100%;
   z-index: 9999;
   background:rgba(0,0,0,0.5);
-  height:50px;
+  height:50.5px;
 }
 
 .underline a {
@@ -64,7 +64,7 @@ h2 {
   left: 0;
   overflow: hidden;
   padding: 3px;
-  max-width: 0;
+  max-width: 0%;
   border-bottom: 1px solid #fff;
   color: #fff;
   content: attr(data-hover);
