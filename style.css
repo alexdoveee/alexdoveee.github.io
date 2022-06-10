@@ -53,6 +53,8 @@ a {
   color: #aaa;
   text-shadow: none;
   position: relative;
+  display: inline-block;
+  padding: 20px 15px 20px 15px;
 }
 
 .navvynav1 a::before {
