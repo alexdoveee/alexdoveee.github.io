@@ -52,7 +52,7 @@ h2 {
 
 .underline a {
   padding: 3px;
-  margin: 20px;
+  margin: 20px 0;
   color: #000;
   position: relative;
   text-decoration:none;
