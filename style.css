@@ -51,7 +51,7 @@ h2 {
 }
 
 .underline a {
-  padding: 3px;
+  padding: 3px 0px;
   margin: 20px;
   color: #000;
   position: relative;
@@ -63,8 +63,8 @@ h2 {
   top: 0;
   left: 0;
   overflow: hidden;
-  padding: 3px;
-  max-width: 0%;
+  padding: 3px 0px;
+  max-width: 0;
   border-bottom: 1px solid #fff;
   color: #fff;
   content: attr(data-hover);
