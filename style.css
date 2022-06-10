@@ -245,6 +245,13 @@ button {
 
 @media (max-width: 800px) {
 
+  h1 {
+    --minFontSize: 20px;
+    --maxFontSize: 40px;
+    --scaler: 1vw;
+    font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+  }
+  
   .column {
     flex: 50%;
     max-width: 50%;
@@ -253,7 +260,7 @@ button {
   section.about {
     width: 80%;
     padding-top: 20%;
-    padding-bottom: 16%;
+    padding-bottom: 10%;
   }
 
   section.project {
