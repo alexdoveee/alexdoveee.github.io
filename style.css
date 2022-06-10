@@ -47,12 +47,12 @@ h2 {
   width: 100%;
   z-index: 9999;
   background:rgba(0,0,0,0.3);
-  padding:10px;
+  height:20px;
 }
 
 .underline a {
-  padding: 5px 0;
-  margin: 0 20px;
+  padding: 3px 0;
+  margin: 20px;
   color: #fff;
   position: relative;
   text-decoration:none;
@@ -63,9 +63,9 @@ h2 {
   top: 0;
   left: 0;
   overflow: hidden;
-  padding: 5px 0;
+  padding: 3px 0;
   max-width: 0;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
   color: #000;
   content: attr(data-hover);
   -webkit-transition: max-width 0.5s;
