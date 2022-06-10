@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 700;
   --minFontSize: 40px;
   --maxFontSize: 70px;
   --scaler: 1vw;
@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1em;
   --minFontSize: 40px;
   --maxFontSize: 70px;
