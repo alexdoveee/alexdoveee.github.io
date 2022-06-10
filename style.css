@@ -47,13 +47,14 @@ h2 {
   width: 100%;
   z-index: 9999;
   background:rgba(0,0,0,0.5);
+  margin:10px;
   height:50.5px;
 }
 
 .underline a {
   padding: 3px 0px;
   margin: 20px;
-  color: #000;
+  color: #555;
   position: relative;
   text-decoration:none;
 }
