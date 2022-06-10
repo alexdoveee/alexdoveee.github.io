@@ -47,8 +47,31 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+.navvynav1 a {
+  padding: 10px 0;
+  margin: 0 20px;
+  color: #aaa;
+  text-shadow: none;
+  position: relative;
+}
+
+.navvynav1 a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 10px 0;
+  max-width: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  content: attr(data-hover);
+  -webkit-transition: max-width 0.5s;
+  -moz-transition: max-width 0.5s;
+  transition: max-width 0.5s;
+}
+
+.navvynav1 a:hover::before {
+  max-width: 100%;
 }
 
 nav {
