@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+a.hover {
+  text-decoration: underline;
+}
+
 nav {
   position: fixed;
   width: 100%;
