@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Kanit", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -224,7 +224,7 @@ input, textarea {
   background-color: #000;
   color: #fff;
   font-family: "Kanit", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 textarea {
@@ -239,7 +239,7 @@ button {
   padding: 1em;
   cursor: pointer;
   font-family: "Kanit", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 0.05em;
 }
 
