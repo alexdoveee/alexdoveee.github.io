@@ -43,6 +43,7 @@ h2 {
 
 .navigation {
   position: fixed;
+  text-align: center;
   width: 100%;
   z-index: 9999;
   background:rgba(0,0,0,0.7);
