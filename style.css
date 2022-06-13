@@ -20,17 +20,7 @@ body {
   color: #fff;
 }
 
-.title {
-  font-weight: 500;
-  --minFontSize: 70px;
-  --maxFontSize: 100px;
-  --scaler: 1vw;
-  font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  letter-spacing: 0.05em;
-  line-height: 1em;
-}
-
-h2 {
+h1 {
   font-weight: 700;
   line-height: 1em;
   --minFontSize: 40px;
@@ -40,14 +30,44 @@ h2 {
   letter-spacing: 0.05em;
 }
 
+.title {
+  font-weight: 500;
+  --minFontSize: 80px;
+  --maxFontSize: 100px;
+  --scaler: 1vw;
+  font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+}
+
 .name {
   font-weight: 200;
-  line-height: 1em;
+  line-height: 1.5em;
   --minFontSize: 20px;
   --maxFontSize: 40px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.6em;
+}
+
+.header {
+  position: relative;
+  width: 40%;
+  padding-top: 50px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  position: relative;
+  width: 80%;
+  padding-top: 50px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .navigation {
@@ -129,26 +149,6 @@ section.project {
   width:80%;
   padding-top:10%;
   padding-bottom:6%;
-}
-
-.header {
-  position: relative;
-  width: 50%;
-  padding-top: 50px;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.centered {
-  position: relative;
-  width: 80%;
-  padding-top: 50px;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 #arrow {
@@ -266,6 +266,17 @@ button {
 }
 
 @media (max-width: 800px) {
+  
+  .title {
+    --minFontSize: 60px;
+    --maxFontSize: 80px;
+    --scaler: 1vw;
+    font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+  }
+  
+  .header {
+    width: 80%;
+  }
   
   .column {
     flex: 50%;
