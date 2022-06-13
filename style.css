@@ -266,13 +266,6 @@ button {
 }
 
 @media (max-width: 800px) {
-
-  h1 {
-    --minFontSize: 20px;
-    --maxFontSize: 40px;
-    --scaler: 1vw;
-    font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  }
   
   .column {
     flex: 50%;
