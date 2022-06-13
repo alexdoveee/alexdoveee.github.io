@@ -27,7 +27,7 @@ h1 {
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
-  line-height: 1.5em;
+  line-height: 1em;
 }
 
 h2 {
@@ -38,6 +38,16 @@ h2 {
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
+}
+
+h3 {
+  font-weight: 200;
+  line-height: 1em;
+  --minFontSize: 20px;
+  --maxFontSize: 40px;
+  --scaler: 1vw;
+  font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+  letter-spacing: 0.5em;
 }
 
 .navigation {
@@ -123,7 +133,7 @@ section.project {
 
 .header {
   position: relative;
-  width: 40%;
+  width: 50%;
   padding-top: 50px;
   top: 50%;
   left: 50%;
