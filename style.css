@@ -22,13 +22,12 @@ body {
 
 h1 {
   font-weight: 500;
-  --minFontSize: 40px;
-  --maxFontSize: 70px;
+  --minFontSize: 70px;
+  --maxFontSize: 90px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  letter-spacing: 0.5em;
+  letter-spacing: 0.2em;
   line-height: 1.5em;
-  text-transform: uppercase;
 }
 
 h2 {
