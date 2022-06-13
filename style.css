@@ -124,7 +124,7 @@ section.project {
 
 .header {
   position: relative;
-  width: 80%;
+  width: 60%;
   padding-top: 50px;
   top: 50%;
   left: 50%;
@@ -134,7 +134,7 @@ section.project {
 
 .centered {
   position: relative;
-  width: 60%;
+  width: 80%;
   padding-top: 50px;
   top: 50%;
   left: 50%;
