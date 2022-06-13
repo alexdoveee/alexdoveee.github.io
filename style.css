@@ -37,12 +37,12 @@ h1 {
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 .name {
   font-weight: 200;
-  line-height: 1.5em;
+  line-height: 1.6em;
   --minFontSize: 20px;
   --maxFontSize: 40px;
   --scaler: 1vw;
