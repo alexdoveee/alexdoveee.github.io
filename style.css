@@ -23,7 +23,7 @@ body {
 h1 {
   font-weight: 500;
   --minFontSize: 70px;
-  --maxFontSize: 90px;
+  --maxFontSize: 100px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
@@ -40,14 +40,14 @@ h2 {
   letter-spacing: 0.05em;
 }
 
-h3 {
+.name {
   font-weight: 200;
   line-height: 1em;
   --minFontSize: 20px;
   --maxFontSize: 40px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  letter-spacing: 0.5em;
+  letter-spacing: 0.6em;
 }
 
 .navigation {
