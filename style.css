@@ -20,7 +20,7 @@ body {
   color: #fff;
 }
 
-h1 {
+.title {
   font-weight: 500;
   --minFontSize: 70px;
   --maxFontSize: 100px;
