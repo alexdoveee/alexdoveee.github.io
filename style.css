@@ -78,16 +78,6 @@ h2 {
   max-width: 100%;
 }
 
-.centered {
-  position: relative;
-  width: 80%;
-  padding-top: 50px;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
 section.welcome {
   margin-left: auto;
   margin-right: auto;
@@ -130,6 +120,26 @@ section.project {
   width:80%;
   padding-top:10%;
   padding-bottom:6%;
+}
+
+.header {
+  position: relative;
+  width: 80%;
+  padding-top: 50px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  position: relative;
+  width: 60%;
+  padding-top: 50px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #arrow {
