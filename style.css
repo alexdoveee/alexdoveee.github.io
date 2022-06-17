@@ -50,22 +50,16 @@ h1 {
   letter-spacing: 0.6em;
 }
 
-.d-flex {
-  display: flex;
-}
-.flex-column {
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .header {
   text-align: left;
   max-width: 40%;
   padding-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .centered {
