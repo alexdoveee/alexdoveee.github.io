@@ -50,6 +50,22 @@ h1 {
   letter-spacing: 0.6em;
 }
 
+.d-flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.w-50 {
+  width: 50%;
+}
+
 .header {
   position: relative;
   text-align: left;
