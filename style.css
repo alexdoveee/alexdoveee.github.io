@@ -30,7 +30,7 @@ h1 {
   letter-spacing: 0.05em;
 }
 
-.title {
+p.title {
   font-weight: 500;
   --minFontSize: 80px;
   --maxFontSize: 100px;
@@ -40,7 +40,7 @@ h1 {
   line-height: 1.1em;
 }
 
-.name {
+p.name {
   font-weight: 200;
   line-height: 1.6em;
   --minFontSize: 20px;
