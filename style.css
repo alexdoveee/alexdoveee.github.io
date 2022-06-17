@@ -178,7 +178,7 @@ section.project {
 }
 
 .column {
-  flex: 25%;
+ 
   max-width: 25%;
   background-color:#000;
 }
