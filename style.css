@@ -178,7 +178,7 @@ section.project {
 }
 
 .column {
- 
+  flex: 25%;
   max-width: 25%;
   background-color:#000;
 }
@@ -287,8 +287,8 @@ button {
 
   section.about {
     width: 80%;
-    padding-top: 20%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
   }
 
   section.project {
