@@ -51,7 +51,6 @@ h1 {
 }
 
 .d-flex {
-  display: -ms-flexbox;
   display: flex;
 }
 .flex-column {
