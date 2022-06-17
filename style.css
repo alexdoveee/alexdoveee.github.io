@@ -52,7 +52,7 @@ h1 {
 
 .header {
   position: relative;
-  width: 40%;
+  max-width: 40%;
   padding-top: 50px;
   top: 50%;
   left: 50%;
@@ -290,7 +290,7 @@ button {
   }
 
   section.project {
-    padding-top:15%;
+    padding-top:20%;
   }
 
   .caption {
