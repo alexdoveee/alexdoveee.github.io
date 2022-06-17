@@ -133,12 +133,6 @@ section.about {
 
 section.work {
   padding-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 section.contact {
@@ -165,6 +159,15 @@ section.project {
   bottom: 5%;
   left: 50%;
   transform: translate(-55%);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icons {
