@@ -51,13 +51,11 @@ h1 {
 }
 
 .header {
-  text-align: left;
-  max-width: 40%;
+  position: relative;
+  width: 40%;
   padding-top: 50px;
-  position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
