@@ -7,6 +7,7 @@ body {
   font-weight: 200;
   margin: 0;
   padding: 0;
+  text-align: center;
   --minFontSize: 14px;
   --maxFontSize: 17px;
   --scaler: 1vw;
@@ -52,6 +53,7 @@ h1 {
 
 .header {
   position: relative;
+  text-align: left;
   max-width: 40%;
   padding-top: 50px;
   top: 50%;
@@ -72,7 +74,6 @@ h1 {
 
 .navigation {
   position: fixed;
-  text-align: center;
   width: 100%;
   z-index: 9999;
   background:rgba(0,0,0,0.7);
@@ -81,8 +82,8 @@ h1 {
 }
 
 .underline a {
-  padding: 3px 0px;
-  margin: 2%;
+  margin-left:10px;
+  margin-right:25px;
   color: #888;
   position: relative;
   text-decoration:none;
@@ -93,7 +94,6 @@ h1 {
   top: 0;
   left: 0;
   overflow: hidden;
-  padding: 3px 0px;
   max-width: 0;
   border-bottom: 1px solid #fff;
   color: #fff;
@@ -122,7 +122,6 @@ section.welcome {
 section.about {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   width: 60%;
   padding-top: 90px;
   padding-bottom: 40px;
@@ -136,7 +135,6 @@ section.work {
 section.contact {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   height: 100%;
   background-color: #000;
   color: #fff;
@@ -145,9 +143,8 @@ section.contact {
 section.project {
   margin-left:auto;
   margin-right:auto;
-  text-align: center;
   width:80%;
-  padding-top:10%;
+  padding-top:90px;
   padding-bottom:6%;
 }
 
@@ -229,7 +226,6 @@ section.project {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 form {
@@ -268,7 +264,7 @@ button {
 @media (max-width: 800px) {
   
   .title {
-    --minFontSize: 50px;
+    --minFontSize: 60px;
     --maxFontSize: 80px;
     --scaler: 1vw;
     font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
@@ -290,7 +286,7 @@ button {
   }
 
   section.project {
-    padding-top:20%;
+    padding-top:15%;
   }
 
   .caption {
