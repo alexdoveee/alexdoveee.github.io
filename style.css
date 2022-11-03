@@ -24,8 +24,8 @@ body {
 h1 {
   font-weight: 500;
   line-height: 1em;
-  --minFontSize: 50px;
-  --maxFontSize: 80px;
+  --minFontSize: 40px;
+  --maxFontSize: 70px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
@@ -64,6 +64,7 @@ h2 {
 
 .header {
   position: relative;
+  text-align:left;
   max-width: 40%;
   padding-top: 50px;
   top: 50%;
