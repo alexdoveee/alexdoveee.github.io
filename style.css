@@ -7,8 +7,8 @@ body {
   font-weight: 200;
   margin: 0;
   padding: 0;
-  --minFontSize: 14px;
-  --maxFontSize: 17px;
+  --minFontSize: 16px;
+  --maxFontSize: 18px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
@@ -42,35 +42,25 @@ h2 {
   letter-spacing: 0.05em;
 }
 
-.title {
-  font-weight: 500;
-  --minFontSize: 80px;
-  --maxFontSize: 100px;
-  --scaler: 1vw;
-  font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  letter-spacing: 0.05em;
-  line-height: 1.1em;
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background:#151515;
+  color: #fff;
+  padding:20px;
+  letter-spacing: 0.5em;
 }
 
-.name {
-  font-weight: 200;
-  line-height: 1.6em;
-  --minFontSize: 20px;
-  --maxFontSize: 40px;
-  --scaler: 1vw;
-  font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  letter-spacing: 0.6em;
+.navleft {
+  float: left;
+  padding-left:3%;
 }
 
-.header {
-  position: relative;
-  text-align:left;
-  max-width: 40%;
-  padding-top: 50px;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.navright {
+  float: right;
+  padding-right:6%;
+  line-height: 40px;
 }
 
 .centered {
@@ -83,59 +73,24 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
-.navigation {
-  position: fixed;
-  width: 100%;
-  z-index: 9999;
-  background:rgba(0,0,0,0.7);
-  padding:10px;
-  height:30.5px;
-}
-
-.underline a {
-  margin-left:10px;
-  margin-right:25px;
-  color: #888;
-  position: relative;
-  text-decoration:none;
-}
-
-.underline a::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  max-width: 0;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  content: attr(data-hover);
-  -webkit-transition: max-width 0.5s;
-  -moz-transition: max-width 0.5s;
-  transition: max-width 0.5s;
-}
-
-.underline a:hover::before {
-  max-width: 100%;
-}
-
 section.welcome {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
   height: 100%;
-  color: #fff;
-  background-image: url("Assets/Header_Filter.jpg");
+  background-color: #151515;
+  background-image: url("Assets/ADoveDesign_Header.gif");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 section.about {
   margin-left: auto;
   margin-right: auto;
   text-align:left;
-  width: 40%;
-  padding-top: 90px;
+  width: 50%;
+  padding-top: 120px;
   padding-bottom: 40px;
   background-color: #fff;
 }
@@ -148,7 +103,7 @@ section.contact {
   margin-left: auto;
   margin-right: auto;
   height: 100%;
-  background-color: #000;
+  background-color: #151515;
   color: #fff;
 }
 
@@ -191,7 +146,7 @@ svg {
 .column {
   flex: 25%;
   max-width: 25%;
-  background-color:#000;
+  background-color:#151515;
 }
 
 .column img {
@@ -212,7 +167,7 @@ svg {
 .overlay {
   position: absolute;
   transition: .5s ease;
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.8);
   opacity: 0;
   top: 0;
   bottom: 0;
@@ -233,8 +188,8 @@ svg {
   letter-spacing: 0.2em;
   line-height:1.5em;
   text-transform: uppercase;
-  --minFontSize: 20px;
-  --maxFontSize: 32px;
+  --minFontSize: 18px;
+  --maxFontSize: 26px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   top: 50%;
@@ -245,7 +200,7 @@ svg {
 }
 
 form {
-  width: 40%;
+  width: 50%;
   margin: auto;
 }
 
@@ -254,8 +209,9 @@ input, textarea {
   padding: 1em;
   width: 100%;
   resize: none;
-  background-color: #000;
+  background-color: #151515;
   color: #fff;
+  font-size: 16px;
   font-family: "Kanit", sans-serif;
   font-weight: 200;
 }
@@ -265,29 +221,25 @@ textarea {
 }
 
 button {
-  color: #000;
+  color: #151515;
   background: #fff;
   border: none;
-  width: 50%;
-  padding: 1em;
+  width: 200px;
+  height: 40px;
   cursor: pointer;
+  font-size: 16px;
   font-family: "Kanit", sans-serif;
   font-weight: 200;
   letter-spacing: 0.05em;
+  transition: .5s ease;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #333;
 }
 
 @media (max-width: 800px) {
-  
-  .title {
-    --minFontSize: 60px;
-    --maxFontSize: 80px;
-    --scaler: 1vw;
-    font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
-  }
-  
-  .header {
-    max-width: 60%;
-  }
   
   .column {
     flex: 50%;
@@ -296,23 +248,23 @@ button {
 
   section.about {
     width: 80%;
-    padding-top: 15%;
+    padding-top: 20%;
     padding-bottom: 10%;
   }
 
   section.project {
-    padding-top:15%;
+    padding-top:20%;
   }
 
   .caption {
-    --minFontSize: 14px;
+    --minFontSize: 16px;
     --maxFontSize: 20px;
     --scaler: 1vw;
     font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   }
 
   form {
-    width: 60%;
+    width: 80%;
   }
 
 }
