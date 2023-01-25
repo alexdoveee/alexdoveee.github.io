@@ -39,17 +39,14 @@
 
   <body>
 
-    <div class="navigation">
+    <div class="parent"><nav>
 
-      <div class="navleft">
-        <a href="/"><img src="Assets/ADoveDesign.svg" style="height:40px;"></a>
-      </div>
+      <ul class="menu">
+        <li><a href="/">A Dove Design</a></li>
+        <li><a href="/"><img src="Assets/ADoveDesign.svg" style="height:40px;"></a></li>
+      </ul>
 
-      <div class="navright">
-        A DOVE DESIGN
-      </div>
-
-    </div>
+    </nav></div>
 
     <section class="welcome" id="welcome">
 
@@ -59,7 +56,7 @@
 
     <section class="about" id="about">
 
-      <h1>Hi, I'm Alex.</h1>
+      <p><h1>Hi, I'm Alex.</h1></p>
       <p>I'm a creative problem solver with a flair for bringing brands to life across whatever
       visual medium I can get my hands on.</p>
       <p>With a breadth of experience in all things graphic design, within both in-house and agency settings, 
@@ -220,11 +217,11 @@
 
       <div class="centered">
 
-        <h1>Fancy a chat?</h1>
+        <p><h1>Fancy a chat?</h1></p>
 
         <form name="contact" netlify>
-          <label><input type="name" name="name" placeholder="What's your name?"/></label><p/>
-          <label><input type="email" name="email" placeholder="What's your email?"/></label><p/>
+          <label><input type="name" name="name" placeholder="What's your name?"/></label><br><br>
+          <label><input type="email" name="email" placeholder="What's your email?"/></label><br><br>
           <label><textarea name="message" placeholder="Tell me your idea" rows="6" cols="25"></textarea></label>
           <br /><br />
           <button type="submit">Send it</button>
