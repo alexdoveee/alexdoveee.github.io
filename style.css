@@ -64,7 +64,7 @@ p {
 }
 
 nav {
-  padding: 10px 3%;
+  padding: 20px 3%;
   background:#151515;
   color: #fff;
 }
@@ -79,7 +79,6 @@ nav {
 
 .menu li a {
   display: block;
-  padding: 15px 5px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
