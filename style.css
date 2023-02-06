@@ -262,6 +262,12 @@ button:hover {
 
 @media (max-width: 800px) {
   
+  nav {
+    padding: 20px 5%;
+    background:#000;
+    color: #fff;
+  }
+  
   .column {
     flex: 50%;
     max-width: 50%;
