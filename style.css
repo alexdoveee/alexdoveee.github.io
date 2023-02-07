@@ -15,7 +15,6 @@ body {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -27,8 +26,8 @@ a {
 h1 {
   font-weight: 500;
   line-height: 1em;
-  --minFontSize: 40px;
-  --maxFontSize: 70px;
+  --minFontSize: 38px;
+  --maxFontSize: 68px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
@@ -38,8 +37,8 @@ h1 {
 h2 {
   font-weight: 500;
   line-height: 1em;
-  --minFontSize: 20px;
-  --maxFontSize: 40px;
+  --minFontSize: 18px;
+  --maxFontSize: 38px;
   --scaler: 1vw;
   font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
   letter-spacing: 0.05em;
