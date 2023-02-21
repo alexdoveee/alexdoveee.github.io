@@ -263,8 +263,6 @@ button:hover {
   
   nav {
     padding: 20px 5%;
-    background:#000;
-    color: #fff;
   }
   
   .column {
@@ -276,6 +274,10 @@ button:hover {
     width: 80%;
     padding-top: 25%;
     padding-bottom: 10%;
+  }
+
+  section.blurb {
+    height: 80%;
   }
 
   section.project {
