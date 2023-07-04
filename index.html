@@ -196,10 +196,9 @@
         <label><textarea name="message" placeholder="What do you do and why?" rows="6" cols="25" required></textarea></label><br><br>
         <label><input type="business" name="business" placeholder="How long have you been in business?"/></label><br><br>
         <label><input type="services" name="services" placeholder="What services are you interested in?"/></label><br><br>
-        <button type="submit">Let's get started</button><br><br>
+        <button type="submit">Send it</button><br><br>
+        <button type="button" onclick="closeForm()">Go back</button>
       </form>
-
-      <button type="button" onclick="closeForm()">Go back</button>
              
      </div>
 
@@ -213,6 +212,6 @@
     function closeForm() {
       document.getElementById("myForm").style.display = "none";
     }
-    </script>
+  </script>
 
 </html>
