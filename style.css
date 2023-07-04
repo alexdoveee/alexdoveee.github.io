@@ -203,18 +203,53 @@ section.project {
   transform: translate(-50%, -50%);
 }
 
+.process {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.process > div {
+  width: 33%;
+  margin: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills > div {
+  width: 25%;
+  margin-bottom:20px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  background: #333;
+  width: 80%;
+  height: 80%;
+  overflow:auto;
+}
+
 form {
-  width: 50%;
+  padding: 50px;
   margin: auto;
 }
 
 input, textarea {
-  border: 1px white solid;
+  border: 0px white solid;
   padding: 1em;
   width: 100%;
   resize: none;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: clamp(14px, 2vw, 16px);
   font-family: "Kanit", sans-serif;
   font-weight: 200;
@@ -227,7 +262,7 @@ textarea {
 
 button {
   color: #fff;
-  background: #333;
+  background: #555;
   border: none;
   padding: 0px 40px;
   height: 40px;
@@ -268,10 +303,6 @@ button:hover {
   section.project {
     padding-top:10%;
     padding-bottom: 10%;
-  }
-
-  form {
-    width: 80%;
   }
 
 }
