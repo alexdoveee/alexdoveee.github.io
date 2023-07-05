@@ -168,7 +168,7 @@
         <br><br>
 
         <div class="process">
-          <div><h1>01</h1><br>Submit an enquiry and I'll send you a service guide with everything you need to know.</div>
+          <div><h1>01</h1><br>I'll respond to your enquiry with my service guide.</div>
           <div><h1>02</h1><br>Then, we'll jump on a discovery call to get to know each other and your business.</div>
           <div><h1>03</h1><br>After our call, you'll receive a tailor-made proposal for your project! </div>  
         </div>
@@ -191,13 +191,18 @@
     <div class="form-popup" id="myForm">
 
       <form name="enquiry" method="POST" data-netlify="true">
-        <label><input type="name" name="name" placeholder="What's your name?" required/></label><br><br>
-        <label><input type="email" name="email" placeholder="What's your email?" required/></label><br><br>
-        <label><textarea name="message" placeholder="What do you do and why?" rows="6" cols="25" required></textarea></label><br><br>
-        <label><input type="business" name="business" placeholder="How long have you been in business?"/></label><br><br>
-        <label><input type="services" name="services" placeholder="What services are you interested in?"/></label><br><br>
+        <p style="text-align: right; color:#fff; font-size:1.5rem; cursor:pointer" onclick="closeForm()">&#x2715</p>
+        What's your name?
+        <label><input type="name" name="name" required/></label><br><br>
+        What's your email?
+        <label><input type="email" name="email" required/></label><br><br>
+        What do you do and why?
+        <label><textarea name="message" rows="6" cols="25" required></textarea></label><br><br>
+        What services are you interested in?
+        <label><input type="services" name="services" /></label><br><br>
+        Do you have a budget for your project?
+        <label><input type="budget" name="services" /></label><br><br>
         <button type="submit">Send it</button><br><br>
-        <button type="button" onclick="closeForm()">Go back</button>
       </form>
              
      </div>

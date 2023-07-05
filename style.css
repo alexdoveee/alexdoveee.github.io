@@ -242,8 +242,13 @@ section.project {
 }
 
 form {
-  padding: 50px;
+  padding: 40px;
   margin: auto;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.25em;
+  letter-spacing: 0.05em;
+  text-align:left;
 }
 
 input, textarea {
@@ -316,7 +321,7 @@ button:hover {
 
 @media (max-width: 390px) {
 
-  body, button {
+  body, button, input, textarea {
     font-size: clamp(12px, 2vw, 14px);
     line-height: 1.25em;
   }
@@ -325,7 +330,7 @@ button:hover {
 
 @media (max-width: 280px) {
 
-  body, button {
+  body, button, input, textarea {
     font-size: clamp(10px, 2vw, 12px);
     line-height: 1.25em;
   }
