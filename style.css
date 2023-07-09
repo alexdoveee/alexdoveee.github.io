@@ -236,8 +236,8 @@ section.project {
   transform: translate(-50%, -50%);
   z-index: 9;
   background: #333;
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  max-height:80%;
   overflow:auto;
 }
 
@@ -245,9 +245,6 @@ form {
   padding: 40px;
   margin: auto;
   color: #fff;
-  font-weight: 300;
-  line-height: 1.25em;
-  letter-spacing: 0.05em;
   text-align:left;
 }
 
@@ -317,11 +314,15 @@ button:hover {
     width: 100%;
   }
 
+  .form-popup {
+    width:80%;
+  }
+
 }
 
 @media (max-width: 390px) {
 
-  body, button, input, textarea {
+  body, form, button, input, textarea {
     font-size: clamp(12px, 2vw, 14px);
     line-height: 1.25em;
   }
@@ -330,7 +331,7 @@ button:hover {
 
 @media (max-width: 280px) {
 
-  body, button, input, textarea {
+  body, form, button, input, textarea {
     font-size: clamp(10px, 2vw, 12px);
     line-height: 1.25em;
   }
