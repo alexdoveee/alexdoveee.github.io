@@ -49,6 +49,8 @@ p {
   left: 0;
   margin: auto;
   width: 100%;
+  position: absolute;
+  z-index: 9999;
 }
 
 nav {
@@ -196,9 +198,9 @@ section.project {
 .centered {
   position: relative;
   width: 80%;
-  padding-top: 50px;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -334,6 +336,10 @@ button:hover {
   body, form, button, input, textarea {
     font-size: clamp(10px, 2vw, 12px);
     line-height: 1.25em;
+  }
+
+  .centered {
+    width:90%;
   }
 
 }
