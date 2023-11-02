@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-weight: 100;
-  line-height: 1.5em;
+  line-height: 1em;
   font-size: clamp(1rem, 2vw + 1.5rem, 3rem);
   letter-spacing: 0.05em;
 }
@@ -293,6 +293,10 @@ section.project {
   margin: 20px;
 }
 
+#servicesimg {
+  width: 80%;
+}
+
 .timeline{
   counter-reset: test;
   width: 100%;
@@ -348,6 +352,10 @@ section.project {
 .steps > div {
   width: 33%;
   margin: 20px;
+}
+
+#stepsimg {
+  width: 80%;
 }
 
 .form-popup {
@@ -415,11 +423,28 @@ button {
   font-weight: 200;
   letter-spacing: 0.05em;
   transition: .5s ease;
+  border-radius: 40px;
 }
 
 button:hover {
   color: #000;
   background-color: #eee;
+}
+
+@media (min-width: 1600px) {
+
+  section.about, section.process, section.quotes, section.freebie {
+    width:40%;
+  }
+
+  .black {
+    width:30%;
+  }
+
+  .servicesflex, .steps {
+    width:50%;
+  }
+
 }
 
 @media (max-width: 920px) {
@@ -508,7 +533,11 @@ button:hover {
   }
 
   .form-popup {
-    width:80%;
+    width:90%;
+  }
+
+  #stepsimg {
+    width:60%;
   }
 
 }
@@ -520,6 +549,18 @@ button:hover {
     line-height: 1.25em;
   }
 
+  h3 {
+    font-size: clamp(12px, 2vw, 14px);
+  }
+
+  .servicesflex, .steps {
+    width:90%;
+  }
+
+  #stepsimg {
+    width:60%;
+  }
+
 }
 
 @media (max-width: 280px) {
@@ -527,6 +568,10 @@ button:hover {
   body, form, button, input, textarea {
     font-size: clamp(10px, 2vw, 12px);
     line-height: 1.25em;
+  }
+
+  h3 {
+    font-size: clamp(10px, 2vw, 12px);
   }
 
   .centered {
