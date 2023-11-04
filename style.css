@@ -280,6 +280,15 @@ section.project {
   margin-bottom:20px;
 }
 
+.popuptitle {
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .servicesflex {
   display: flex;
   flex-wrap: nowrap;
@@ -352,10 +361,6 @@ section.project {
 .steps > div {
   width: 33%;
   margin: 20px;
-}
-
-#stepsimg {
-  width: 80%;
 }
 
 .form-popup {
