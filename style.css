@@ -436,6 +436,28 @@ button:hover {
   background-color: #eee;
 }
 
+.inline-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.emailoctopus-form {
+  padding:20px !important;
+  width: 100% !important;
+}
+
+.main-form input {
+  border-radius: 40px !important;
+  font-weight: 200 !important;
+  padding: 0px 20px !important;
+  height: 40px !important;
+}
+
+.mastfoot {
+  display: none !important;
+  height:0px !important;
+}
+
 @media (min-width: 1600px) {
 
   section.about, section.process, section.quotes, section.freebie {
