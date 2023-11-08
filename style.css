@@ -493,7 +493,7 @@ button:hover {
   }
 
   section.about {
-    width: 60%;
+    width: 50%;
     padding-top: 10%;
     padding-bottom: 13%;
   }
@@ -585,6 +585,18 @@ button:hover {
 
 }
 
+@media (max-width: 540px) {
+
+  section.about {
+    width:70%;
+  }
+
+  h3 {
+    font-size: clamp(14px, 2vw, 16px);
+  }
+
+}
+
 @media (max-width: 390px) {
 
   body, form, button, input, textarea {
@@ -597,7 +609,7 @@ button:hover {
   }
 
   .aboutflex, .servicesflex, .steps {
-    width:100%;
+    width:90%;
   }
 
 }
