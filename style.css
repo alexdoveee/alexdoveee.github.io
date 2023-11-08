@@ -107,7 +107,7 @@ section.welcome {
 section.about {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -261,8 +261,6 @@ section.project {
 
 .centered {
   position: relative;
-  width: 80%;
-  padding-top: 50px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -278,6 +276,20 @@ section.project {
 .skills > div {
   width: 25%;
   margin-bottom:20px;
+}
+
+.aboutflex {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom:40px;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutflex > div {
+  width: 50%;
+  margin: 20px;
 }
 
 .popuptitle {
@@ -300,10 +312,6 @@ section.project {
 .servicesflex > div {
   width: 50%;
   margin: 20px;
-}
-
-#servicesimg {
-  width: 80%;
 }
 
 .timeline{
@@ -420,8 +428,7 @@ button {
   color: #fff;
   background: #555;
   border: none;
-  padding: 0px 40px;
-  height: 40px;
+  padding: 10px 40px;
   cursor: pointer;
   font-size: clamp(14px, 2vw, 16px);
   font-family: "Kanit", sans-serif;
@@ -486,7 +493,7 @@ button:hover {
   }
 
   section.about {
-    width: 80%;
+    width: 60%;
     padding-top: 10%;
     padding-bottom: 13%;
   }
@@ -532,13 +539,34 @@ button:hover {
     width: 80%;
   }
 
+  .aboutflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutflex > div {
+    width:100%;
+    margin: 0px;
+  }
+
+  .servicesflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .servicesflex > div {
     width: 100%;
     margin: 20px;
     margin-bottom:30px;
   }
 
-  .servicesflex {
+  .steps {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
@@ -551,20 +579,8 @@ button:hover {
     margin: 20px;
   }
 
-  .steps {
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .form-popup {
     width:90%;
-  }
-
-  #stepsimg {
-    width:60%;
   }
 
 }
@@ -580,12 +596,8 @@ button:hover {
     font-size: clamp(12px, 2vw, 14px);
   }
 
-  .servicesflex, .steps {
-    width:90%;
-  }
-
-  #stepsimg {
-    width:60%;
+  .aboutflex, .servicesflex, .steps {
+    width:100%;
   }
 
 }
@@ -599,10 +611,6 @@ button:hover {
 
   h3 {
     font-size: clamp(10px, 2vw, 12px);
-  }
-
-  .centered {
-    width:90%;
   }
 
 }
