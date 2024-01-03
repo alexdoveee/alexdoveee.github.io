@@ -105,8 +105,26 @@ section.mobile {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.button2 {
+  border: 1.2px solid #1a1a1a;
+  background-color: #fff;
+  color: #1a1a1a;
+  padding: 20px;
+  border-radius: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.button2:hover {
+  background-color: #1a1a1a;
+  color: #fff;
 }
 
 section.welcome {
@@ -127,6 +145,8 @@ section.about {
   width: 60%;
   padding-top: 60px;
   padding-bottom: 80px;
+  background-color: #fff;
+  color: #1a1a1a;
 }
 
 section.services {
@@ -144,6 +164,8 @@ section.quotes {
   width: 70%;
   padding-top: 60px;
   padding-bottom: 80px;
+  background-color: #fff;
+  color: #1a1a1a;
 }
 
 section.work {
@@ -156,6 +178,7 @@ section.process {
   width: 70%;
   padding-top: 60px;
   padding-bottom: 80px;
+  color: #1a1a1a;
 }
 
 section.contact {
@@ -173,6 +196,8 @@ section.freebie {
   width: 50%;
   padding-top: 60px;
   padding-bottom: 80px;
+  background-color: #fff;
+  color: #1a1a1a;
 }
 
 section.footer {
@@ -197,6 +222,8 @@ section.project {
   padding-top:50px;
   padding-bottom:50px;
   text-align: center;
+  background-color: #fff;
+  color: #1a1a1a;
 }
 
 #arrow {
@@ -285,16 +312,6 @@ section.project {
   transform: translate(-50%, -50%);
 }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skills > div {
-  width: 25%;
-  margin-bottom:20px;
-}
-
 .aboutflex {
   display: flex;
   flex-wrap: nowrap;
@@ -357,7 +374,7 @@ section.project {
   line-height: 40px;
   margin: 0 auto 10px auto;
   background: #fff;
-  color: #000;
+  color: #1a1a1a;
 }
 
 .timeline li:after{
@@ -365,7 +382,7 @@ section.project {
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #000;
+  background-color: #1a1a1a;
   top: 20px;
   left: -50%;
   z-index: -999;
