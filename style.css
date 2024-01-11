@@ -510,6 +510,24 @@ button:hover {
   height:0px !important;
 }
 
+.btn-primary {
+  border: 1.2px solid #1a1a1a !important;
+  background-color: #fff !important;
+  color: #1a1a1a !important;
+  padding: 20px !important;
+  border-radius: 40px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  cursor: pointer !important;
+  transition: .5s ease !important;
+}
+
+.btn-primary:hover {
+  background-color: #1a1a1a !important;
+  color: #fff !important;
+}
+
 @media (min-width: 1600px) {
 
   section.about, section.process, section.quotes, section.freebie {
