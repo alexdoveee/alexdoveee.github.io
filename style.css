@@ -441,13 +441,16 @@ section.qaire {
   width: 60%;
   max-height:80%;
   overflow:auto;
+  text-align:left;
+}
+
+.form-enquiry {
+  padding:40px;
 }
 
 form {
-  padding: 40px;
   margin: auto;
   color: #fff;
-  text-align:left;
 }
 
 input, textarea {
