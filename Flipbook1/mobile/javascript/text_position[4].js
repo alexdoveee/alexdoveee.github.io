@@ -1,1 +1,0 @@
-﻿positionForPages[4]={page:4,positions:[{word:"EXCELLENCE",left:0.364978,top:0.097836,width:0.270046,height:0.054203},{word:"BY",left:0.388336,top:0.163907,width:0.027472,height:0.025047},{word:"HARRON",left:0.427681,top:0.163907,width:0.094887,height:0.025047},{word:"HOMES",left:0.534441,top:0.163907,width:0.077226,height:0.025047}]};
