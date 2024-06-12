@@ -117,6 +117,7 @@ section.main {
 
 section.work {
   width: 100%;
+  background: linear-gradient(180deg, #1a1a1a 50%, #E9E4DE 50%);
 }
 
 section.freebie {
@@ -221,6 +222,11 @@ section.full {
 
 /* PORTFOLIO */
 
+.vid {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
 
 .flex {
   display: flex;
