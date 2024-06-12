@@ -222,12 +222,6 @@ section.full {
 
 /* PORTFOLIO */
 
-.vid {
-  width: 100%;
-  overflow: hidden;
-  height: 100%;
-}
-
 .flex {
   display: flex;
   flex-wrap: wrap;
