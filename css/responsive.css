@@ -1,0 +1,209 @@
+/******************
+Responsive stylesheet**/
+
+/* desktops lower than 1920*/
+@media screen and (max-device-width:1600px), screen and (max-width:1600px) {
+	body {
+	font-size:65%;
+	}
+
+	.open-button, .btn {
+	font-size:2em;
+	padding:20px 0px;
+	}
+
+	.open-button, .btn, .video-panel, ul.tabs li, .tab-content,
+	input, textarea, select, .btnenquire {
+	border-width:2px;
+	}
+
+	.blk-button {
+	border-width:2px;	
+	font-size:2em;
+	}
+
+	nav {
+	padding:20px 3%;
+	}
+
+	.menu img {
+	height:40px;
+	}
+
+	.main {
+	padding-top:60px;
+	}
+
+	.testimonials blockquote {
+	margin-top:50px;
+	}
+
+	.testimonials blockquote img {
+	max-width:50px;
+	margin-bottom:24px;
+	}
+
+	ul.tabs li {
+	font-size:2.4em;
+	padding:30px 0;
+	}
+	.tab-content dl dd {
+	padding-left:50px;
+	background-size:24px;
+	}
+
+	.footer {
+	padding-top:40px;
+	font-size:170%;
+	}
+	.footer img {
+	max-width:18px;
+	padding:0 5px;
+	}
+	.footer img.logo {
+	height:40px;
+	margin-top:0;
+	}
+}
+
+/* laptops (~) and lower*/
+@media screen and (max-device-width:1440px), screen and (max-width:1440px) {
+	body {
+	font-size:50%;
+	}
+
+	.menu li a {
+	font-size:2em;
+	}
+
+	.tab-content dl dd {
+	font-size:2.6em;
+	margin-bottom:12px;
+	}
+
+	.form-enquiry p {
+	font-size:2.3em;
+	}
+}
+
+/* tablets (~) and lower. starts row/100% approach*/
+@media screen and (max-device-width:768px), screen and (max-width:768px) {
+	.container {
+	width:80%;
+	}
+	.container--wide {
+	width:90%;
+	}
+
+	.video-panel {
+	padding-bottom:96%;
+	}
+
+	.brands {
+	padding-top:10%;
+	padding-bottom:2%;
+	}
+	.brands-logos {
+	padding-top:20px;
+	}
+	.brands-logos--item {
+	width:33.333%;
+	}
+
+	ul.tabs {
+	margin:50px 0 24px;
+	}
+	ul.tabs li {
+	width:100%;
+	padding:20px 0;
+	margin-bottom:10px;
+	}
+	.tab-content {
+	padding:8%;
+	margin-bottom:40px;
+	}
+	.tab-content .quote-holder {
+	max-width:none;
+	margin:40px 0 20px;
+	}
+	.tab-content .quote-holder .btn,
+	.tab-content .quote-holder .open-button {
+	width:100%;
+	padding:16px 0;
+	}
+
+	.form-popup {
+	width:95%;
+	}
+}
+
+/* mobiles (~)*/
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+	body {
+	font-size:40%;
+	}
+
+	h1 {font-size:6.5em;}
+	h2 {font-size:5em;}
+
+	nav {
+	padding:10px 24px;
+	}
+
+	.tab-content .quote-holder .btn,
+	.tab-content .quote-holder .open-button {
+	font-size:2.3em;
+	padding:15px;margin-bottom:3%;
+	}
+
+	.blk-button {
+	font-size:2.3em;
+	}
+
+	.tab-content dl dd {
+	padding-left:30px;
+	background-position:top left;
+	background-size:16px;
+	}
+
+	.text-circle {
+		position:relative;
+		}
+			.text-circle:before, .text-circle:after {
+			content:"";
+			position:absolute;
+			width:100%;height:1em;
+			border:1px solid white;
+			border-radius:50%;
+			}
+			.text-circle:before {
+			left:-0.5em;top:0em;
+			border-right-color:transparent;
+			padding:0.1em 0.25em;
+			transform:rotate(2deg);
+			}
+			.text-circle:after {
+			left:-0.5em;top:0.1em;
+			padding:0.1em 0.25em;
+			border-left-color:transparent;
+			border-top-color:transparent;
+			transform:rotate(-1deg);
+			}
+		
+		.text-wave {
+		position:relative;
+		}
+			.text-wave:after {
+			content:"";
+			left:-0.1em;top:-0.2em;
+			padding:0.15em 0.25em;
+			border-bottom-width:1px;
+			border-bottom-style:solid;
+			border-bottom-color:white;
+			position:absolute;
+			width:90%;height:1em;
+			transform:rotate(-2deg);
+			}
+
+
+}
