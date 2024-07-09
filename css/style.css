@@ -172,7 +172,7 @@ background:linear-gradient(180deg, #1a1a1a 50%, #e9e4de 50%);
 	overflow:hidden;
 	max-width:100%;height:0;
 	margin:0 auto;padding-bottom:52.25%;/*41.25% – XD ratio*/
-	background:#1a1a1a url(../Assets/video_placeholder.jpg) center no-repeat;
+	background:#1a1a1a url(/assets/video_placeholder.jpg) center no-repeat;
 	background-size:cover;
 	border:4px solid #1a1a1a;
 	border-radius:30px;
@@ -215,18 +215,18 @@ color:#1a1a1a;
 /******************
 Testimonials**/
 .testimonials {
-padding-top:10%;
-padding-bottom:10%;
+padding-top:12%;
+padding-bottom:12%;
 }
 	.testimonials blockquote {
 	margin:100px 0 0;
 	}
 	.testimonials blockquote img {
 	max-width:100px;
-	margin:0 0 40px;
+	margin:0 0 20px;
 	}
 	.testimonials blockquote p {
-	margin-bottom:1.25em;
+	margin-bottom:1em;
 	}
 	.testimonials blockquote cite {
 	font-size:1.8em;
@@ -299,22 +299,23 @@ background-position:left center;
 background-repeat:no-repeat;
 background-size:32px;
 }
-.tab-content dl dd.icon-aud {background-image:url(../Assets/ADD_Package1.png);}
-.tab-content dl dd.icon-mar {background-image:url(../Assets/ADD_Package2.png);}
-.tab-content dl dd.icon-str {background-image:url(../Assets/ADD_Package3.png);}
-.tab-content dl dd.icon-cre {background-image:url(../Assets/ADD_Package4.png);}
-.tab-content dl dd.icon-log {background-image:url(../Assets/ADD_Package5.png);}
-.tab-content dl dd.icon-col {background-image:url(../Assets/ADD_Package6.png);}
-.tab-content dl dd.icon-gfx {background-image:url(../Assets/ADD_Package7.png);}
-.tab-content dl dd.icon-add {background-image:url(../Assets/ADD_Package8.png);}
-.tab-content dl dd.icon-ani {background-image:url(../Assets/ADD_Package9.png);}
-.tab-content dl dd.icon-doc {background-image:url(../Assets/ADD_Package10.png);}
-.tab-content dl dd.icon-fls {background-image:url(../Assets/ADD_Package11.png);}
-.tab-content dl dd.icon-sup {background-image:url(../Assets/ADD_Package12.png);}
+.tab-content dl dd.icon-aud {background-image:url(../assets/ADD_Package1.svg);}
+.tab-content dl dd.icon-mar {background-image:url(../assets/ADD_Package2.svg);}
+.tab-content dl dd.icon-str {background-image:url(../assets/ADD_Package3.svg);}
+.tab-content dl dd.icon-cre {background-image:url(../assets/ADD_Package4.svg);}
+.tab-content dl dd.icon-log {background-image:url(../assets/ADD_Package5.svg);}
+.tab-content dl dd.icon-col {background-image:url(../assets/ADD_Package6.svg);}
+.tab-content dl dd.icon-gfx {background-image:url(../assets/ADD_Package7.svg);}
+.tab-content dl dd.icon-add {background-image:url(../assets/ADD_Package8.svg);}
+.tab-content dl dd.icon-ani {background-image:url(../assets/ADD_Package9.svg);}
+.tab-content dl dd.icon-doc {background-image:url(../assets/ADD_Package10.svg);}
+.tab-content dl dd.icon-fls {background-image:url(../assets/ADD_Package11.svg);}
+.tab-content dl dd.icon-sup {background-image:url(../assets/ADD_Package12.svg);}
 
 .tab-content dl dd button {
 cursor:pointer;
 font-size:inherit;
+color:#1a1a1a;
 font-weight:300;
 border:0;background:none;
 text-decoration:underline;
