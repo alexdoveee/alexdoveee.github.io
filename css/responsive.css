@@ -12,6 +12,8 @@ Responsive stylesheet**/
 	padding:20px 0px;
 	}
 
+	h1 {font-size:9em;}
+
 	.open-button, .btn, .video-panel, ul.tabs li, .tab-content,
 	input, textarea, select, .btnenquire {
 	border-width:2px;
@@ -31,7 +33,7 @@ Responsive stylesheet**/
 	}
 
 	.main {
-	padding-top:60px;
+	padding-top:20px;
 	}
 
 	.testimonials blockquote {
@@ -143,8 +145,13 @@ Responsive stylesheet**/
 	font-size:40%;
 	}
 
-	h1 {font-size:6.5em;}
+	h1 {font-size:9em; padding-bottom:-50px;}
 	h2 {font-size:5em;}
+
+	.main h1 {margin-bottom: 30px;}
+
+	p {margin-top:-0.5em;}
+	.container {margin-top:2em;}
 
 	nav {
 	padding:5%;
