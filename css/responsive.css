@@ -145,6 +145,11 @@ Responsive stylesheet**/
 	font-size:40%;
 	}
 
+	.testimonials {
+padding-top:12em;
+width:80%;
+}
+
 	h1 {font-size:9em; padding-bottom:-50px;}
 	h2 {font-size:5em;}
 

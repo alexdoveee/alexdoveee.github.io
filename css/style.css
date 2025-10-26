@@ -213,9 +213,17 @@ color:#1a1a1a;
 /******************
 Testimonials**/
 .testimonials {
-padding-top:12%;
-padding-bottom:12%;
+padding-top:8em;
+width:65%;max-width:1250px;
+margin-top:6em;
+margin-left:auto;
+margin-right:auto;
 }
+
+.form {
+	margin-top:-5em;
+}
+
 	.testimonials blockquote {
 	margin:100px 0 0;
 	}
